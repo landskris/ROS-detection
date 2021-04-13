@@ -43,6 +43,6 @@ for bag_path in bag_paths:
         out = cv2.VideoWriter(video_name, fourcc, fps, resolution)
 
         for _topic, msg, t in bag.read_messages(topics=[topic]):
-
+            pass
 
 
